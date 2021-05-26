@@ -5,7 +5,7 @@ from datetime import datetime
 import uuid
 
 #Read Coordinates from Geojson
-input_file = open('data/idependence24.json')
+input_file = open('data/independence24.json')
 #Load json array
 json_array = json.load(input_file)
 #Grab the coordinate data from json_array
